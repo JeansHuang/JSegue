@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E396A331BFF65F100700E3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E396A321BFF65F100700E3B /* main.m */; };
+		2E396A361BFF65F100700E3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E396A351BFF65F100700E3B /* AppDelegate.m */; };
+		2E396A391BFF65F100700E3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E396A381BFF65F100700E3B /* ViewController.m */; };
+		2E396A3C1BFF65F100700E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E396A3A1BFF65F100700E3B /* Main.storyboard */; };
+		2E396A3E1BFF65F100700E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E396A3D1BFF65F100700E3B /* Assets.xcassets */; };
+		2E396A4B1BFF668900700E3B /* UIViewController+JSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E396A4A1BFF668900700E3B /* UIViewController+JSegue.m */; };
+		2ED17F761C088A3F005F0E16 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED17F751C088A3F005F0E16 /* CustomNavigationController.m */; };
+		2ED17F791C088F6B005F0E16 /* NoXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED17F781C088F6B005F0E16 /* NoXibViewController.m */; };
+		2ED17F7D1C088FDE005F0E16 /* XibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED17F7B1C088FDE005F0E16 /* XibViewController.m */; };
+		2ED17F7E1C088FDE005F0E16 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ED17F7C1C088FDE005F0E16 /* XibViewController.xib */; };
+		2ED17F831C0895F7005F0E16 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED17F811C0895F7005F0E16 /* ModalViewController.m */; };
+		2ED17F841C0895F7005F0E16 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ED17F821C0895F7005F0E16 /* ModalViewController.xib */; };
+		2EE586581C0377C90023B370 /* JSegueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE586571C0377C90023B370 /* JSegueNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E396A2E1BFF65F100700E3B /* JSegueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSegueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E396A321BFF65F100700E3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E396A341BFF65F100700E3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E396A351BFF65F100700E3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E396A371BFF65F100700E3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E396A381BFF65F100700E3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E396A3B1BFF65F100700E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E396A3D1BFF65F100700E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E396A421BFF65F100700E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E396A491BFF668900700E3B /* UIViewController+JSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JSegue.h"; sourceTree = "<group>"; };
+		2E396A4A1BFF668900700E3B /* UIViewController+JSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JSegue.m"; sourceTree = "<group>"; };
+		2ED17F741C088A3F005F0E16 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		2ED17F751C088A3F005F0E16 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		2ED17F771C088F6B005F0E16 /* NoXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoXibViewController.h; sourceTree = "<group>"; };
+		2ED17F781C088F6B005F0E16 /* NoXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoXibViewController.m; sourceTree = "<group>"; };
+		2ED17F7A1C088FDE005F0E16 /* XibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibViewController.h; sourceTree = "<group>"; };
+		2ED17F7B1C088FDE005F0E16 /* XibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibViewController.m; sourceTree = "<group>"; };
+		2ED17F7C1C088FDE005F0E16 /* XibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
+		2ED17F801C0895F7005F0E16 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		2ED17F811C0895F7005F0E16 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		2ED17F821C0895F7005F0E16 /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		2EE586561C0377C90023B370 /* JSegueNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSegueNavigationController.h; sourceTree = "<group>"; };
+		2EE586571C0377C90023B370 /* JSegueNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSegueNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E396A2B1BFF65F100700E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E396A251BFF65F100700E3B = {
+			isa = PBXGroup;
+			children = (
+				2E396A301BFF65F100700E3B /* JSegueDemo */,
+				2E396A2F1BFF65F100700E3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E396A2F1BFF65F100700E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E396A2E1BFF65F100700E3B /* JSegueDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E396A301BFF65F100700E3B /* JSegueDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2E396A481BFF667B00700E3B /* JSegue */,
+				2ED17F741C088A3F005F0E16 /* CustomNavigationController.h */,
+				2ED17F751C088A3F005F0E16 /* CustomNavigationController.m */,
+				2E396A371BFF65F100700E3B /* ViewController.h */,
+				2E396A381BFF65F100700E3B /* ViewController.m */,
+				2E396A3A1BFF65F100700E3B /* Main.storyboard */,
+				2ED17F851C089606005F0E16 /* Modal */,
+				2ED17F7F1C0894C6005F0E16 /* Push */,
+				2E396A311BFF65F100700E3B /* Supporting Files */,
+			);
+			path = JSegueDemo;
+			sourceTree = "<group>";
+		};
+		2E396A311BFF65F100700E3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E396A3D1BFF65F100700E3B /* Assets.xcassets */,
+				2E396A421BFF65F100700E3B /* Info.plist */,
+				2E396A341BFF65F100700E3B /* AppDelegate.h */,
+				2E396A351BFF65F100700E3B /* AppDelegate.m */,
+				2E396A321BFF65F100700E3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E396A481BFF667B00700E3B /* JSegue */ = {
+			isa = PBXGroup;
+			children = (
+				2E396A491BFF668900700E3B /* UIViewController+JSegue.h */,
+				2E396A4A1BFF668900700E3B /* UIViewController+JSegue.m */,
+				2EE586561C0377C90023B370 /* JSegueNavigationController.h */,
+				2EE586571C0377C90023B370 /* JSegueNavigationController.m */,
+			);
+			path = JSegue;
+			sourceTree = SOURCE_ROOT;
+		};
+		2ED17F7F1C0894C6005F0E16 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				2ED17F771C088F6B005F0E16 /* NoXibViewController.h */,
+				2ED17F781C088F6B005F0E16 /* NoXibViewController.m */,
+				2ED17F7A1C088FDE005F0E16 /* XibViewController.h */,
+				2ED17F7B1C088FDE005F0E16 /* XibViewController.m */,
+				2ED17F7C1C088FDE005F0E16 /* XibViewController.xib */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		2ED17F851C089606005F0E16 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				2ED17F801C0895F7005F0E16 /* ModalViewController.h */,
+				2ED17F811C0895F7005F0E16 /* ModalViewController.m */,
+				2ED17F821C0895F7005F0E16 /* ModalViewController.xib */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E396A2D1BFF65F100700E3B /* JSegueDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E396A451BFF65F100700E3B /* Build configuration list for PBXNativeTarget "JSegueDemo" */;
+			buildPhases = (
+				2E396A2A1BFF65F100700E3B /* Sources */,
+				2E396A2B1BFF65F100700E3B /* Frameworks */,
+				2E396A2C1BFF65F100700E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSegueDemo;
+			productName = JSegueDemo;
+			productReference = 2E396A2E1BFF65F100700E3B /* JSegueDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E396A261BFF65F100700E3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = gzhu;
+				TargetAttributes = {
+					2E396A2D1BFF65F100700E3B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E396A291BFF65F100700E3B /* Build configuration list for PBXProject "JSegueDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E396A251BFF65F100700E3B;
+			productRefGroup = 2E396A2F1BFF65F100700E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E396A2D1BFF65F100700E3B /* JSegueDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E396A2C1BFF65F100700E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED17F841C0895F7005F0E16 /* ModalViewController.xib in Resources */,
+				2E396A3E1BFF65F100700E3B /* Assets.xcassets in Resources */,
+				2ED17F7E1C088FDE005F0E16 /* XibViewController.xib in Resources */,
+				2E396A3C1BFF65F100700E3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E396A2A1BFF65F100700E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED17F7D1C088FDE005F0E16 /* XibViewController.m in Sources */,
+				2ED17F791C088F6B005F0E16 /* NoXibViewController.m in Sources */,
+				2E396A391BFF65F100700E3B /* ViewController.m in Sources */,
+				2E396A361BFF65F100700E3B /* AppDelegate.m in Sources */,
+				2E396A331BFF65F100700E3B /* main.m in Sources */,
+				2ED17F831C0895F7005F0E16 /* ModalViewController.m in Sources */,
+				2E396A4B1BFF668900700E3B /* UIViewController+JSegue.m in Sources */,
+				2ED17F761C088A3F005F0E16 /* CustomNavigationController.m in Sources */,
+				2EE586581C0377C90023B370 /* JSegueNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E396A3A1BFF65F100700E3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E396A3B1BFF65F100700E3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E396A431BFF65F100700E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E396A441BFF65F100700E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E396A461BFF65F100700E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSegueDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jeanshuang.JSegueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E396A471BFF65F100700E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSegueDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jeanshuang.JSegueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E396A291BFF65F100700E3B /* Build configuration list for PBXProject "JSegueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E396A431BFF65F100700E3B /* Debug */,
+				2E396A441BFF65F100700E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E396A451BFF65F100700E3B /* Build configuration list for PBXNativeTarget "JSegueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E396A461BFF65F100700E3B /* Debug */,
+				2E396A471BFF65F100700E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E396A261BFF65F100700E3B /* Project object */;
+}
