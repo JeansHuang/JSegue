@@ -42,3 +42,5 @@ UIViewController push pop modal simple category.
  */
 - (void)js_push:(id)aVC param:(NSDictionary*)param;
 ```
+###使用CocoaPods添加###
+`pod 'JSegue'`
