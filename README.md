@@ -12,7 +12,26 @@ UIViewController push pop modal simple category.
  *  @param aVC VC的字符串名称，VC的实例，VC在storyboard中的id
  */
 - (void)js_push:(id)aVC;
+```
 
+**`example:`**  
+
+```objective-c
+//a ViewController name
+[self js_push:@"ViewController"];
+
+//a ViewController ID in Stroyboard
+[UIViewController js_setStoryboardNames:@"Main"];
+[self js_push:@"VC_ID"];
+
+//a instance of UIViewController
+UIViewController *vc = [UIViewController new];
+[self js_push:vc];
+```
+
+`other mothers:`  
+
+```objective-c
 /*!
  *  @brief  push页面，若页面存在则pop到该页面
  *
@@ -28,6 +47,7 @@ UIViewController push pop modal simple category.
  */
 - (void)js_push:(id)aVC removePrior:(NSInteger)count;
 ```
+`...`
 
 ###方便的页面传参###
 可以直接设置目标页面的property，或者传递字典。  
@@ -42,5 +62,44 @@ UIViewController push pop modal simple category.
  */
 - (void)js_push:(id)aVC param:(NSDictionary*)param;
 ```
+
+**`example:`**  
+
+```objective-c
+@interface XibViewController : UIViewController
+
+@property (nonatomic, strong) NSString *publicProperty;
+
+@end
+
+//push and send param
+NSDictionary *paramDict = @{@"publicProperty":@"hello public property",
+                                @"privateProperty":@"hello private property",
+                                @"customDictParam":@"hello custom dict param"};
+
+[self js_push:@"XibViewController" param: paramDict];
+
+
+//receive
+@implementation XibViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    NSLog(@"NoXibViewController received:%@",self.js_parameter);
+    
+    NSLog(@"publicProperty:%@",self.publicProperty);
+    
+    NSLog(@"privateProperty:%@",self.privateProperty);
+    
+    self.label.text = self.js_parameter[@"customDictParam"];
+}
+
+
+```
+
+`other methods:`  
+`...in demo`
+
 ###使用CocoaPods添加###
 `pod 'JSegue'`
