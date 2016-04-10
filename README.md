@@ -29,7 +29,7 @@ UIViewController *vc = [UIViewController new];
 [self js_push:vc];
 ```
 
-`other mothers:`  
+`other methods:`  
 
 ```objective-c
 /*!
